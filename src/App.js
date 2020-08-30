@@ -1,13 +1,13 @@
 import React from "react";
-
+import "./App.css"
 function handleClick() {
   console.log("I was clicked");
 }
 
 function App() {
   return (
-    <div>
-      <img
+    <div className="App">
+      <img 
         onMouseOver={() => console.log("Hovering over Bill")}
         src="https://www.fillmurray.com/300/200"
         alt=" "
